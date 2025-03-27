@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo 16 - formularios</title>
+</head>
+<body>
+   <form action="paginadestino" method="post">
+    <fieldset>
+        <legend>Cadastro</legend>
+        <div>
+            <label for="">nome</label> <br>
+            <input type="text" name="textnome" id="txtnome" required>
+
+
+        </div>
+        <br>
+        <div>
+            <label for="">ano nascimento</label> <br>
+            <input type="number" name="txtanonascimento" id="txtanonascimento" required min="1910" max=""2250>
+
+
+        </div>
+        <br>
+        <div>
+            <label for="">informe sua cor favorita</label> <br>
+            <input type="color" name="txtcor" id="txtcor">
+
+
+        </div>
+        <br>
+        <div>
+            <label for="">me fale mais sobre voce</label>
+            <textarea name="txtfalemais" id="txtfalemais" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div><button type="submit">cadastrar</button>
+        </div>
+    </fieldset>
+   </form> 
+</body>
+</html>
